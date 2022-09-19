@@ -48,11 +48,11 @@ class SNEP:
 
 if __name__ == "__main__":
 
-    snep = SNEP(10)
+    snep = SNEP()
 
-    singlesList = snep.getSinglesList()
+    singlesList = snep.getSinglesList(10)
     print(singlesList)
 
-    albumsList = snep.getAlbumsList()
+    albumsList = snep.getAlbumsList(10)
     print(albumsList)
     
